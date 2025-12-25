@@ -7,7 +7,7 @@ const skills = [
       subtitle: "Chiropractic Care",
       description: "Expert adjustments to correct spinal misalignments (subluxations). Our precise techniques restore proper nerve flow, reduce pain, and improve your body's innate healing ability.",
       benefits: ["Pain Relief", "Nervous System Health", "Improved Mobility"],
-      image: "https://images.unsplash.com/photo-1594411460010-3882f05a5d2e?auto=format&fit=crop&q=80&w=800"
+      image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800"
     },
     {
       title: "Chiro-Yoga Fusion",
@@ -21,14 +21,14 @@ const skills = [
       subtitle: "Corrective Exercise",
       description: "Personalized exercise programs to reverse the effects of modern lifestyle stressors. Learn how to carry your body with ease and prevent recurring injuries.",
       benefits: ["Better Posture", "Injury Prevention", "Ergonomic Awareness"],
-      image: "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?auto=format&fit=crop&q=80&w=800"
+      image: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&q=80&w=800"
     },
   {
     title: "Neuromuscular Therapy",
     subtitle: "Soft Tissue Balance",
     description: "Focused massage and trigger point therapy to release chronic tension. This prepares the muscles to support a properly aligned skeletal system.",
     benefits: ["Muscle Relaxation", "Better Circulation", "Reduced Tension"],
-    image: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1499728603263-13726abce5fd?auto=format&fit=crop&q=80&w=800"
   }
 ];
 
