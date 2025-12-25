@@ -72,6 +72,7 @@ export default function Home() {
                 src="https://images.unsplash.com/photo-1579126038374-6064e9370f0f?auto=format&fit=crop&q=80&w=1000"
                 alt="Chiropractic Treatment"
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover"
               />
             </div>
