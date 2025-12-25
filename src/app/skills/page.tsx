@@ -63,14 +63,15 @@ export default function SkillsPage() {
               key={index} 
               className={`flex flex-col ${index % 2 === 1 ? 'md:flex-row-reverse' : 'md:flex-row'} gap-12 items-center`}
             >
-              <div className="w-full md:w-1/2 relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
-                <Image
-                  src={skill.image}
-                  alt={skill.title}
-                  fill
-                  className="object-cover"
-                />
-              </div>
+                <div className="w-full md:w-1/2 relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
+                  <Image
+                    src={skill.image}
+                    alt={skill.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className="object-cover"
+                  />
+                </div>
               <div className="w-full md:w-1/2">
                 <span className="text-sm uppercase tracking-[0.2em] text-[#B7B7A4] font-sans font-bold mb-4 block">
                   {skill.subtitle}
