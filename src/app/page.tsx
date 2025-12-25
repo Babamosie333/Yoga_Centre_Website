@@ -23,6 +23,7 @@ export default function Home() {
               src="https://images.unsplash.com/photo-1591154719677-62a3d74c402f?auto=format&fit=crop&q=80&w=2000"
               alt="Chiropractic Care"
               fill
+              sizes="100vw"
               className="object-cover opacity-20"
               priority
             />
