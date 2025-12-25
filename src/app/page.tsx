@@ -69,7 +69,7 @@ export default function Home() {
             </div>
             <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1579126038374-6064e9370f0f?auto=format&fit=crop&q=80&w=1000"
+                src="https://images.unsplash.com/photo-1599447292180-45fd84092ef0?auto=format&fit=crop&q=80&w=1000"
                 alt="Chiropractic Treatment"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
