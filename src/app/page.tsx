@@ -20,7 +20,7 @@ export default function Home() {
         <section className="relative h-screen flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             <Image
-              src="https://images.unsplash.com/photo-1591154719677-62a3d74c402f?auto=format&fit=crop&q=80&w=2000"
+              src="https://images.unsplash.com/photo-1599447421416-3414500d18a5?auto=format&fit=crop&q=80&w=2000"
               alt="Chiropractic Care"
               fill
               sizes="100vw"
