@@ -2,27 +2,27 @@ import Link from "next/link";
 import Image from "next/image";
 
 const skills = [
-  {
-    title: "Spinal Alignment",
-    subtitle: "Chiropractic Care",
-    description: "Expert adjustments to correct spinal misalignments (subluxations). Our precise techniques restore proper nerve flow, reduce pain, and improve your body's innate healing ability.",
-    benefits: ["Pain Relief", "Nervous System Health", "Improved Mobility"],
-    image: "https://images.unsplash.com/photo-1591154719677-62a3d74c402f?auto=format&fit=crop&q=80&w=800"
-  },
-  {
-    title: "Chiro-Yoga Fusion",
-    subtitle: "Structural Flow",
-    description: "A specialized yoga practice designed by chiropractors. We focus on postures that stabilize the spine and strengthen the core to maintain the benefits of your adjustments.",
-    benefits: ["Spinal Stability", "Core Strength", "Long-term Maintenance"],
-    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800"
-  },
-  {
-    title: "Posture Rehabilitation",
-    subtitle: "Corrective Exercise",
-    description: "Personalized exercise programs to reverse the effects of modern lifestyle stressors. Learn how to carry your body with ease and prevent recurring injuries.",
-    benefits: ["Better Posture", "Injury Prevention", "Ergonomic Awareness"],
-    image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=800"
-  },
+    {
+      title: "Spinal Alignment",
+      subtitle: "Chiropractic Care",
+      description: "Expert adjustments to correct spinal misalignments (subluxations). Our precise techniques restore proper nerve flow, reduce pain, and improve your body's innate healing ability.",
+      benefits: ["Pain Relief", "Nervous System Health", "Improved Mobility"],
+      image: "https://images.unsplash.com/photo-1594411460010-3882f05a5d2e?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      title: "Chiro-Yoga Fusion",
+      subtitle: "Structural Flow",
+      description: "A specialized yoga practice designed by chiropractors. We focus on postures that stabilize the spine and strengthen the core to maintain the benefits of your adjustments.",
+      benefits: ["Spinal Stability", "Core Strength", "Long-term Maintenance"],
+      image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      title: "Posture Rehabilitation",
+      subtitle: "Corrective Exercise",
+      description: "Personalized exercise programs to reverse the effects of modern lifestyle stressors. Learn how to carry your body with ease and prevent recurring injuries.",
+      benefits: ["Better Posture", "Injury Prevention", "Ergonomic Awareness"],
+      image: "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?auto=format&fit=crop&q=80&w=800"
+    },
   {
     title: "Neuromuscular Therapy",
     subtitle: "Soft Tissue Balance",
