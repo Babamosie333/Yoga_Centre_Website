@@ -86,9 +86,9 @@ export default function Home() {
             </div>
             <div className="grid md:grid-cols-3 gap-8">
               {[
-                { title: "Spinal Adjustment", desc: "Precise chiropractic techniques to restore proper nerve function.", img: "https://images.unsplash.com/photo-1594411460010-3882f05a5d2e?auto=format&fit=crop&q=80&w=500" },
-                { title: "Chiro-Yoga Flow", desc: "Yoga sequences specifically designed to complement spinal care.", img: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=500" },
-                { title: "Posture Correction", desc: "Expert guidance to improve your daily alignment and reduce strain.", img: "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?auto=format&fit=crop&q=80&w=500" }
+                { title: "Spinal Adjustment", desc: "Precise chiropractic techniques to restore proper nerve function.", img: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800" },
+                { title: "Chiro-Yoga Flow", desc: "Yoga sequences specifically designed to complement spinal care.", img: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=800" },
+                { title: "Posture Correction", desc: "Expert guidance to improve your daily alignment and reduce strain.", img: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&q=80&w=800" }
               ].map((skill, i) => (
                 <div key={i} className="group cursor-pointer">
                   <div className="relative h-64 mb-6 overflow-hidden rounded-xl">
@@ -96,6 +96,7 @@ export default function Home() {
                       src={skill.img}
                       alt={skill.title}
                       fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className="object-cover group-hover:scale-110 transition-transform duration-500"
                     />
                   </div>
